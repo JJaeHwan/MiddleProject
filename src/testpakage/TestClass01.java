@@ -8,6 +8,8 @@ public class TestClass01 {
 	
 	// 뽀려가요
 	
+
+	// 아좌좌
 	// 고은지님 힘내세요... 삼성이 AS해주실거에요...
 	
 	// 네.. 안괜찮앙 ㅛ.. ㅎㅇㅎㅇ
@@ -16,4 +18,10 @@ public class TestClass01 {
 	
 	///sdfasdfasdfasdfdsfsfsdf
 	
+	// 여기인가?
+	
+	// 누구인가?
+	
+	// 나는 강하다 이겨낼 수 있다!
+
 }
