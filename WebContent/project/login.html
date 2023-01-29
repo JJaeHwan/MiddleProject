@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="../js/jquery-3.6.3.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+<div class="dropdown-menu">
+  <form class="px-4 py-3">
+    <div class="mb-3">
+      <label for="exampleDropdownFormEmail1" class="form-label">ID</label>
+      <input type="text" class="form-control" placeholder="ID"  id="errorID">
+    </div>
+    <div class="mb-3">
+      <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+    </div>
+    <div class="mb-3">
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="dropdownCheck">
+        <label class="form-check-label" for="dropdownCheck">
+          아이디 기억하기
+        </label>
+      </div>
+    </div>
+    <button id="logbut" type="submit" class="btn btn-primary">로그인</button>
+  </form>
+  <div class="dropdown-divider"></div>
+  <a class="dropdown-item" href="#">New around here? Sign up</a>
+  <a class="dropdown-item" href="#">Forgot password?</a>
+</div>
+<script type="text/javascript">
+let errorID = document.getElementById('errorID');
+$('#logbut').on('click', function() {
+	if(errorID.value ==""){
+		alert('아이디를 입력하세요');
+	}
+})
+</script>
+</body>
+</html>
